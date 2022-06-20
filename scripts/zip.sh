@@ -8,7 +8,10 @@ cd /tmp && unzip /tmp/mw_plugin.zip
 mkdir -p /www/server/mdserver-web/plugins/simple-plugin
 cp -rf  /tmp/simple-plugin-main/* /www/server/mdserver-web/plugins/simple-plugin
 
-# rm -rf /tmp/mw_plugin.zip
-# rm -rf /tmp/simple-plugin-main
+rm -rf /tmp/mw_plugin.zip
+rm -rf /tmp/simple-plugin-main
 
 
+# 安装 && 启动
+cd /www/server/mdserver-web/plugins/simple-plugin && /bin/bash install.sh install 0.1
+cd /www/server/mdserver-web && python3 /www/server/mdserver-web/plugins/simple-plugin/index.py start

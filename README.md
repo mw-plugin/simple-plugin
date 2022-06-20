@@ -10,3 +10,8 @@
 ```
 curl -fsSL https://raw.githubusercontent.com/mw-plugin/simple-plugin/main/scripts/install.sh | bash
 ```
+
+# 生成安装包
+```
+curl -fsSL https://raw.githubusercontent.com/mw-plugin/simple-plugin/main/scripts/zip.sh | bash
+```
