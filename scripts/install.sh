@@ -11,8 +11,8 @@ cd /tmp && unzip /tmp/mw_plugin.zip
 
 
 cd /tmp/simple-plugin-main/ && zip -r -q -o simple-plugin.zip  ./
-
 mw simple-plugin.zip $rootPath/
+
 rm -rf /tmp/mw_plugin.zip
 rm -rf /tmp/simple-plugin-main
 
