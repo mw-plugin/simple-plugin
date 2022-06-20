@@ -8,6 +8,9 @@ cd /tmp && unzip /tmp/mw_plugin.zip
 mkdir -p /www/server/mdserver-web/plugins/simple-plugin
 cp -rf  /tmp/simple-plugin-main/* /www/server/mdserver-web/plugins/simple-plugin
 
+
+
+zip -r -q -o simple-plugin.zip  ./
 # rm -rf /tmp/mw_plugin.zip
 # rm -rf /tmp/simple-plugin-main
 
