@@ -12,3 +12,6 @@ rm -rf /tmp/mw_plugin.zip
 rm -rf /tmp/simple-plugin-main
 
 
+# 安装 && 启动
+
+
