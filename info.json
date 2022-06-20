@@ -1,6 +1,6 @@
 {
 	"sort": 7,
-	"ps": "简单高效的全文搜索引擎",
+	"ps": "插件开发实例",
 	"name": "simple-plugin",
 	"title": "simple-plugin",
 	"shell": "install.sh",
