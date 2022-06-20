@@ -14,7 +14,8 @@ def getPluginName():
 
 
 def status():
-    return 'ok'
+    # start ｜ stop
+    return 'start'
 
 
 def start():
