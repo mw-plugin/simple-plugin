@@ -9,10 +9,6 @@ rootPath=$(dirname "$curPath")
 wget -O /tmp/mw_plugin.zip https://github.com/mw-plugin/simple-plugin/archive/refs/heads/main.zip
 cd /tmp && unzip /tmp/mw_plugin.zip 
 
-mkdir -p /www/server/mdserver-web/plugins/simple-plugin
-cp -rf  /tmp/simple-plugin-main/* /www/server/mdserver-web/plugins/simple-plugin
-
-
 
 cd /tmp/simple-plugin-main/ && zip -r -q -o simple-plugin.zip  ./
 
