@@ -8,5 +8,5 @@
 # 脚本安装
 
 ```
-
+curl -fsSL https://raw.githubusercontent.com/mw-plugin/simple-plugin/main/scripts/install.sh | bash
 ```
