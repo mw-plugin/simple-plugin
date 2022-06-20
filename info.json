@@ -1,0 +1,18 @@
+{
+	"sort": 7,
+	"ps": "简单高效的全文搜索引擎",
+	"name": "simple-plugin",
+	"title": "simple-plugin",
+	"shell": "install.sh",
+	"versions":["0.1"],
+	"updates":["0.1"],
+	"tip": "soft",
+	"checks": "server/simple-plugin",
+	"path": "server/simple-plugin",
+	"display": 1,
+	"author": "midoks",
+	"date": "2022-06-02",
+	"home": "https://github.com/mw-plugin/simple-plugin",
+	"type": 0,
+	"pid": "5"
+}
